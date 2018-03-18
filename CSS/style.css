@@ -605,6 +605,145 @@ i {
     color: #ffffff
   }
   
+  #tickets {
+    background-color: #835f8b;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #tickets a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  #tickets a:hover {
+    text-decoration: underline;
+  }
+  
+  #tickets table {
+    margin: 1em auto;
+    width: 90%;
+    text-align: left;
+  }
+  
+  #tickets table tr th {
+    font-weight: 800;
+  }
+  
+  #tickets table tr td {
+    padding: 0.75em;
+  }
+  
+  #sponsors {
+    background: #f5f5f5 url('../images/bg6.gif');
+    color: #ffffff;
+    z-index: -0;
+  }
+  
+  #sponsors .content {
+    /*background-color: #e9b1b1;*/
+    z-index: 999;
+  }
+  
+  #sponsors p {
+    text-align: center;
+    margin: 25px;
+  }
+  
+  #sponsors img {
+    padding: 1em;
+    /*background-color: rgba(29, 34, 42, 0.63);*/
+    height: 200px;
+    margin: 10px 5px 5px;
+    z-index: 999;
+  }
+  
+  #sponsors .partners img {
+    max-height: 200px;
+    height: auto;
+  }
+  
+  canvas.pg-canvas {
+    background-color: /*#3f2743*/
+    ;
+    /*background-color: #171b24;*/
+    position: absolute;
+    z-index: -99;
+    overflow: hidden;
+    width: 90%;
+    right: 0;
+  }
+  
+  #sponsors img:hover {
+    background-color: #2b3240;
+  }
+  
+  #sponsors .partners img:hover {
+    background-color: transparent;
+  }
+  
+  .helpers, .partners, .cooler_helpers {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  
+  }
+  
+  .partners {
+    /*basic reset
+    margin: 0;
+     padding: 0;}
+  
+    adding a black bg to the body to make things clearer
+    body {background: black;}
+    canvas {display: block;} */
+  
+    idth: 96.8%;
+  
+    background-color: rgba(45, 53, 66, 0.63);
+    text-align: center;
+  }
+  
+  .partners:hover {
+    background-color: #2b3240;
+  }
+  
+  .partners a img:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .cooler_helpers img {
+    background-color: rgba(40, 47, 58, 0.63);
+    width: 28%;
+  }
+  
+  .helpers a img {
+    background-color: rgba(29, 34, 42, 0.63);
+    width: 23%;
+  }
+  
+  #sponsors h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #main-footer {
+    text-align: center;
+    padding: 40px;
+    color: #dfe6ea;
+    z-index: 1;
+    background-color: rgba(22, 26, 36, 0.98);
+  }
+  
+  #main-footer a, #sponsors a {
+    color: #80c3ef;
+    text-decoration: none;
+  }
+  
+  #main-menu .mobile {
+    display: none;
+  }
   
   
 
