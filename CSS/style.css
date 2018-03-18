@@ -200,14 +200,118 @@ i {
 }
 
 .header-button-wrapper button:hover, input[type="submit"]:hover {
-  /*border: 2px solid #648fd8;
-  color: #603c81;*/
-
 	background-color: rgba(255, 255, 255, 0);
 	border: 2px solid #684D6D;
-	color: #ffffff;
+  color: #ffffff;
 
 }
+
+
+#logo_container img {
+  width: 90%;
+  }
+  
+  #about, #schedule, #faq, #team, #sponsors, #tickets {
+    padding: 5em 4em;
+  }
+  
+  #about {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #about .page-bg {
+    background: #f5f5f5 url('../images/bg2.jpg') no-repeat center center fixed;
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  #about .content {
+    display: flex;
+  }
+  
+  #about .details, #about .side-image {
+    flex: 1 1;
+  }
+  
+  #about .content p {
+    margin-bottom: 2em;
+  }
+  
+  #about .side-image {
+    display: flex;
+  }
+  
+  #about .side-image img {
+    margin: auto 0 auto auto;
+    height: 450px;
+    display: block;
+  }
+  
+  #dataset {
+    background-color: #603c81;
+    color: #d0b9d8;
+    z-index: -0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #dataset .content {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #dataset .content img {
+    max-height: 50px;
+    height: auto;
+    width: 23%;
+    padding: 1em;
+    margin: 10px 5px 5px
+  }
+  
+  #dataset h1 a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  #dataset h1 a:hover {
+    text-decoration: underline;
+  }
+  
+  #map {
+    height: 50vh;
+  }
+  
+  #map iframe {
+    pointer-events: none;
+  }
+  
+  #gmap-canvas {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .map-pointer {
+    text-align: center;
+    font: 13px 'Source Sans Pro', sans-serif;
+    line-height: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
 
 
 
