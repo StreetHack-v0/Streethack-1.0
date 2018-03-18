@@ -657,7 +657,7 @@ i {
   canvas.pg-canvas {
     background-color: /*#3f2743*/
     ;
-    /*background-color: #171b24;*/
+   
     position: absolute;
     z-index: -99;
     overflow: hidden;
