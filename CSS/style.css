@@ -103,3 +103,43 @@ body {
   top: 12px;
   margin-right: 5px;
 }
+
+#main-header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: flex;
+  background: #f5f5f5 url('../images/bg1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-content-wrapper {
+  margin: auto;
+  width: auto;
+  text-align: center;
+}
+
+i {
+  font-style: italic;
+}
+
+.header-button-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 150px;
+  display: block;
+  margin: 5px auto;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  animation: fadein 1s;
+}
+
+
