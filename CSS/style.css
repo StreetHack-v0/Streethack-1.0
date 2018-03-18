@@ -142,4 +142,37 @@ i {
   animation: fadein 1s;
 }
 
+.logotext,
+
+
+, .header-button-wrapper {
+  -webkit-animation: fadein 3s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 3s;
+  /* Internet Explorer */
+  -o-animation: fadein 3s;
+  /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.logotext {
+  display: block;
+  height: 65px;
+  margin: 10px auto;
+}
+
+.header-info {
+
+  font-size: 150%;
+  font-weight: 1000;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px #8C26E0;
+  padding: 10px 10px;
+  height: 50px;
+  display: block;
+  margin: 5px auto;
+
+
 
