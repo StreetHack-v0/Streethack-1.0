@@ -103,7 +103,7 @@ body {
   margin-right: 5px;
 }
 
-#main-header {
+  #main-header {
   display: flex;
   flex-direction: column;
   height: 100vh;
