@@ -203,55 +203,49 @@ i {
 #logo_container img {
   width: 90%;
   }
-  
+
   #about, #schedule, #faq, #team, #sponsors, #tickets {
     padding: 5em 4em;
   }
-  
-  #about {
+
+  /* #about {
     display: flex;
     flex-direction: column;
     height: 100vh;
-  }
-  
-  #about .page-bg {
+  } */
+
+  #about {
     background: #f5f5f5 url('../images/bg2.jpg') no-repeat center center fixed;
-  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     color: #ffffff;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+
   }
-  
+
   #about .content {
     display: flex;
   }
-  
+
   #about .details, #about .side-image {
     flex: 1 1;
   }
-  
+
   #about .content p {
     margin-bottom: 2em;
   }
-  
+
   #about .side-image {
     display: flex;
   }
-  
+
   #about .side-image img {
     margin: auto 0 auto auto;
     height: 450px;
     display: block;
   }
-  
+
   #dataset {
     background-color: #603c81;
     color: #d0b9d8;
@@ -259,13 +253,13 @@ i {
     padding: 40px 20px;
     text-align: center;
   }
-  
+
   #dataset .content {
     max-width: 600px;
     margin-right: auto;
     margin-left: auto;
   }
-  
+
   #dataset .content img {
     max-height: 50px;
     height: auto;
@@ -273,30 +267,30 @@ i {
     padding: 1em;
     margin: 10px 5px 5px
   }
-  
+
   #dataset h1 a {
     color: #FFF;
     text-decoration: none;
   }
-  
+
   #dataset h1 a:hover {
     text-decoration: underline;
   }
-  
+
   #map {
     height: 50vh;
   }
-  
+
   #map iframe {
     pointer-events: none;
   }
-  
+
   #gmap-canvas {
     width: 100%;
     height: 100%;
     z-index: 1;
   }
-  
+
   .map-pointer {
 
     text-align: center;
@@ -316,7 +310,7 @@ i {
     margin-top: -50vh;
     z-index: 5;
   }
-  
+
   #schedule {
     background: #f5f5f5 url('../images/bg3.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -325,48 +319,96 @@ i {
     background-size: cover;
     color: #ffffff;
   }
-  
+
   #schedule h2, #tickets h2 {
     text-align: center;
     margin-bottom: 0.5em;
   }
-  
+
   #schedule .table-container, #tickets .table-container {
     margin: 0;
     padding: 0;
   }
-  
+
   #schedule .table-block {
     margin: 10px auto;
-    float: center;
-    width: 35%;
+    float: left;
+    width: 45%;
     display: inline-block;
     height: 100%;
   }
-  
-   .mc-field-group {
+
+  #signup-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+    z-index: 99999999999999;
+  }
+
+  #signup-form {
+    background-color: #9bb3e1;
+    color: #ffffff;
+    width: 420px;
+    height: 395px;
+    margin: auto;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  #signup-form input[type="text"], #signup-form input[type="email"] {
+    float: right;
+    box-sizing: border-box;
+    height: 2.4em;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    outline: none !important;
+    transition: 0.25s;
+  }
+
+  #signup-form input[type="text"]:focus, #signup-form input[type="email"]:focus {
+    opacity: 0.9;
+  }
+
+  .signup-close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 32px;
+    width: 32px;
+  }
+
+  .mc-field-group {
     height: 2em;
     line-height: 2em;
   }
-  
+
   .indicates-required {
     float: left;
     margin-top: calc(1.5em + 8px);
   }
-  
+
+  #signup-form p {
+    margin-bottom: 1em;
+  }
+
   input#mc-embedded-subscribe {
     margin: 1.5em 0 0 0;
     display: block;
     height: auto;
     float: right;
   }
-  
+
   @media screen and (max-width: 700px) {
     #schedule .table-block {
       width: 100%;
     }
   }
-  
+
   #schedule h4 {
     font-weight: 600;
     text-transform: uppercase;
@@ -374,54 +416,58 @@ i {
     color: #f0dbf4;
     margin-bottom: 10px;
   }
-  
+
   #schedule b {
     font-weight: 500;
   }
-  
+
   #schedule table {
     width: 100%;
     line-height: 1.25em;
   }
-  
+
   #schedule .table-block.left {
     float: left;
   }
-  
+
   #schedule .table-block.right {
     float: right;
     padding-right: 10px;
   }
-  
+
   @media screen and (max-width: 470px) {
     #schedule .table-block.left, #schedule .table-block.right {
       padding: 0;
-  
+
+    }
+    #schedule table {
+      width: 50%;
+      line-height: 1em;
     }
     #schedule td, th {
-      padding: 150px 150px 150px 0 !important;
+      padding: 0px 0px 0px 0 !important;
     }
   }
-  
+
   #schedule th {
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
   }
-  
+
   #schedule b {
     font-weight: bold;
     color: #dae6fa;
   }
-  
+
   #schedule i {
     font-style: italic;
   }
-  
+
   #schedule p {
     text-align: center;
     padding-bottom: 15px;
   }
-  
+
   #schedule td, th {
     border: 1px none #dddddd;
     text-align: left;
@@ -438,60 +484,60 @@ i {
     background-size: cover;
     color: #ffffff;
   }
-  
+
   #faq a {
     color: #2462cd;
     text-decoration: none;
   }
-  
+
   #faq a:hover {
     color: #587dd7;
   }
-  
+
   #faq h2 {
     padding: 0 0 10px 5px !important;
   }
-  
+
   #faq .content {
     -webkit-columns: 3 200px;
     -moz-columns: 3 200px;
     columns: 3 200px;
   }
-  
+
   #faq h3 {
     font-size: 1.7em;
     margin-bottom: 10px;
   }
-  
+
   #faq .question, #faq h2 {
     padding: .5em;
   }
-  
+
   #faq .question {
     -webkit-column-break-inside: avoid;
     break-inside: avoid-column;
   }
-  
+
   #faq .question.last-question {
     background-color: #3b283e;
     margin-top: 20px;
     color: #edd9f1;
     padding: 1em;
   }
-  
+
   #faq .question.last-question h3 {
     margin-top: -2px;
   }
-  
+
   #faq .question.last-question a {
     color: #b5caef;
   }
-  
+
   #faq .question.last-question a:hover {
     color: #8ec4f6;
     text-decoration: underline;
   }
-  
+
   #team {
     background: #f5f5f5 url('../images/bg5.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -499,18 +545,18 @@ i {
     -o-background-size: cover;
     background-size: cover;
   }
-  
+
   #team h2 {
     text-align: center;
   }
-  
+
   #team .team-container .core {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
     display: flex;
   }
-  
+
   #team .member {
     width: 12%;
     display: inline-block;
@@ -520,14 +566,14 @@ i {
     color: rgba(255,255,255);
   *display: center;
   }
-  
+
   #team .member img {
     width: 100%;
     margin: auto;
     border-radius: 50%;
     overflow: hidden;
   }
-  
+
   #team .member .name {
     font-weight: bold;
     margin-top: 8px;
@@ -536,132 +582,134 @@ i {
     display: block;
     display: conter;
     color: #ffffff;
-  
+
   }
-  
+
   #team .member .description {
     font-weight: 1000;
   }
-  
+
   #team .helpers {
     margin-top: 55px;
     margin-top: 55px;
     color: #ffffff
   }
-  
+
   #tickets {
     background-color: #835f8b;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
   }
-  
+
   #tickets a {
     color: lightblue;
     text-decoration: none;
   }
-  
+
   #tickets a:hover {
     text-decoration: underline;
   }
-  
+
   #tickets table {
     margin: 1em auto;
     width: 90%;
     text-align: left;
   }
-  
+
   #tickets table tr th {
     font-weight: 800;
   }
-  
+
   #tickets table tr td {
     padding: 0.75em;
   }
-  
+
   #sponsors {
     background: #f5f5f5 url('../images/bg6.gif');
     color: #ffffff;
     z-index: -0;
   }
-  
+
   #sponsors .content {
     z-index: 999;
   }
-  
+
   #sponsors p {
     text-align: center;
     margin: 25px;
   }
-  
+
   #sponsors img {
     padding: 1em;
     height: 200px;
     margin: 10px 5px 5px;
     z-index: 999;
   }
-  
+
   #sponsors .partners img {
     max-height: 200px;
     height: auto;
   }
-  
+
   canvas.pg-canvas {
     background-color: /*#3f2743*/
     ;
-   
+
     position: absolute;
     z-index: -99;
     overflow: hidden;
     width: 90%;
     right: 0;
   }
-  
+
   #sponsors img:hover {
     background-color: #2b3240;
   }
-  
+
   #sponsors .partners img:hover {
     background-color: transparent;
   }
-  
+
   .helpers, .partners, .cooler_helpers {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-  
+
   }
-  
+
   .partners {
+
+
     width: 96.8%;
-  
+
     background-color: rgba(45, 53, 66, 0.63);
     text-align: center;
   }
-  
+
   .partners:hover {
     background-color: #2b3240;
   }
-  
+
   .partners a img:hover {
     background-color: rgba(255, 255, 255, 0);
   }
-  
+
   .cooler_helpers img {
     background-color: rgba(40, 47, 58, 0.63);
     width: 28%;
   }
-  
+
   .helpers a img {
     background-color: rgba(29, 34, 42, 0.63);
     width: 23%;
   }
-  
+
   #sponsors h2 {
     text-align: center;
     margin-bottom: 40px;
   }
-  
+
   #main-footer {
     text-align: center;
     padding: 40px;
@@ -669,26 +717,26 @@ i {
     z-index: 1;
     background-color: rgba(22, 26, 36, 0.98);
   }
-  
+
   #main-footer a, #sponsors a {
     color: #80c3ef;
     text-decoration: none;
   }
-  
+
   #main-menu .mobile {
     display: none;
   }
-  
+
   @media screen and (min-width: 1080px) {
     .content {
       width: 960px;
       margin-right: auto;
       margin-left: auto;
-  
-  
+
+
     }
   }
-  
+
   @media screen and (max-width: 1000px) {
     #team .team-container .core {
       flex-wrap: wrap;
@@ -699,8 +747,8 @@ i {
       flex: auto;
       display: flex;
       flex-direction: column;
-  
-  
+
+
     }
     #team .member img {
       max-width: 100px;
@@ -712,15 +760,24 @@ i {
       width: 24%;
     }
   }
-  
-  @media screen and (min-width:75px) {
+
+  @media screen and (min-width:60px) {
     #about .content .details {
       color: #ffffff;
       float: left;
       width: 50%;
     }
+    #schedule table {
+      width: 50%;
+      line-height: 1.25em;
+    }
   }
-  
+  @@media screen and (max-width:300px){
+    html{
+      font-size: 30%;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     #main-header {
       display: flex;
@@ -749,13 +806,13 @@ i {
       display: none;
     }
   }
-  
+
   @media screen and (max-width: 470px) {
     .partners {
       background-color: transparent;
       height: 200px;
       width: 100%;
-      margin: 0 0 5px;
+      margin: 0 0 0px;
     }
     .partners:hover {
       background-color: transparent;
@@ -797,18 +854,36 @@ i {
       opacity: 0;
     }
     #main-menu .mobile {
-      display: block;
+      display: none;
       margin-top: 7px;
+    }
+    #mlh-trust-badge {
+      right: 10px !important;
+    }
+    #signup-form {
+      width: 100%;
+      height: 100vh;
+      overflow: scroll;
+      padding-bottom: 10px;
+    }
+    #signup-form label {
+      display: block;
+    }
+    #signup-form input[type="text"], #signup-form input[type="email"] {
+      border-radius: 1px;
+      float: none;
     }
     .mc-field-group {
       height: auto;
     }
-
     input#mc-embedded-subscribe, .indicates-required {
       float: none;
     }
   }
-  
+
+
+
+
   @keyframes fadein {
     from {
       opacity: 0;
@@ -817,6 +892,7 @@ i {
       opacity: 1;
     }
   }
+
 
   @-moz-keyframes fadein {
     from {
@@ -827,6 +903,7 @@ i {
     }
   }
 
+
   @-webkit-keyframes fadein {
     from {
       opacity: 0;
@@ -835,6 +912,7 @@ i {
       opacity: 1;
     }
   }
+
 
   @-ms-keyframes fadein {
     from {
@@ -845,6 +923,7 @@ i {
     }
   }
 
+
   @-o-keyframes fadein {
     from {
       opacity: 0;
@@ -853,8 +932,18 @@ i {
       opacity: 1;
     }
   }
-  
+
   .cat {
     position: absolute;
     transition: 10s;
+  }
+  .heart {
+    background-color: red;
+    display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
   }
