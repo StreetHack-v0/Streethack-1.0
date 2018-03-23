@@ -77,6 +77,7 @@ body {
   padding-left: 20px;
   padding-bottom: 20px;
   transition: 1s background-color;
+  background: #8b96924d;
 }
 
 #main-menu li {
@@ -431,7 +432,7 @@ i {
   }
 
   #faq {
-    background: #f5f5f5 url('../images/bg4.jpg') no-repeat center center fixed;
+    background: #530a9e  center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -493,7 +494,8 @@ i {
   }
   
   #team {
-    background: #f5f5f5 url('../images/bg5.jpg') no-repeat center center fixed;
+    background: url('../images/team.jpg') no-repeat center center fixed;
+    opacity: 0.5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -514,10 +516,11 @@ i {
   #team .member {
     width: 12%;
     display: inline-block;
+    opacity: 1.5;
     margin: 10px;
     text-align: center;
     flex: 1 1;
-    color: rgba(255,255,255);
+    color: rgb(7, 7, 7);
   *display: center;
   }
   
@@ -535,7 +538,7 @@ i {
     width: 200%;
     display: block;
     display: conter;
-    color: #ffffff;
+    color: #090909;
   
   }
   
@@ -580,7 +583,8 @@ i {
   }
   
   #sponsors {
-    background: #f5f5f5 url('../images/bg6.gif');
+    background: #a77a51 url('../images/sponsor.jpg');
+    background-repeat:no-repeat;
     color: #ffffff;
     z-index: -0;
   }
