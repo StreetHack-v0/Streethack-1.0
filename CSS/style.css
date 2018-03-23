@@ -320,23 +320,24 @@ i {
     color: #ffffff;
   }
 
-  #schedule h2, #tickets h2 {
-    text-align: center;
-    margin-bottom: 0.5em;
-  }
+  
+#schedule h2, #tickets h2 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
 
-  #schedule .table-container, #tickets .table-container {
-    margin: 0;
-    padding: 0;
-  }
+#schedule .table-container, #tickets .table-container {
+  margin: 0;
+  padding: 0;
+}
 
-  #schedule .table-block {
-    margin: 10px auto;
-    float: left;
-    width: 45%;
-    display: inline-block;
-    height: 100%;
-  }
+#schedule .table-block {
+  margin: 10px auto;
+  float: left;
+  width: 45%;
+  display: inline-block;
+  height: 100%;
+}
 
   #signup-wrapper {
     width: 100vw;
@@ -392,9 +393,6 @@ i {
     margin-top: calc(1.5em + 8px);
   }
 
-  #signup-form p {
-    margin-bottom: 1em;
-  }
 
   input#mc-embedded-subscribe {
     margin: 1.5em 0 0 0;
@@ -438,15 +436,11 @@ i {
   @media screen and (max-width: 470px) {
     #schedule .table-block.left, #schedule .table-block.right {
       padding: 0;
+    }
 
-    }
-    #schedule table {
-      width: 50%;
-      line-height: 1em;
-    }
     #schedule td, th {
-      padding: 0px 0px 0px 0 !important;
-    }
+    padding: 150px 150px 150px 0 !important;
+  }
   }
 
   #schedule th {
@@ -766,10 +760,6 @@ i {
       color: #ffffff;
       float: left;
       width: 50%;
-    }
-    #schedule table {
-      width: 50%;
-      line-height: 1.25em;
     }
   }
   @@media screen and (max-width:300px){
