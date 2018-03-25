@@ -641,7 +641,7 @@ i {
   }
 
   #sponsors .partners img {
-    max-height: 200px;
+    max-height: 100px;
     height: auto;
   }
 
@@ -674,7 +674,7 @@ i {
   .partners {
 
 
-    width: 96.8%;
+    width: 20.8%;
 
     background-color: rgba(45, 53, 66, 0.63);
     text-align: center;
