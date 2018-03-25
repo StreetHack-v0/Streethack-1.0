@@ -674,7 +674,7 @@ i {
   .partners {
 
 
-    width: 20.8%;
+    width: 70.8%;
 
     background-color: rgba(45, 53, 66, 0.63);
     text-align: center;
@@ -690,7 +690,7 @@ i {
 
   .cooler_helpers img {
     background-color: rgba(40, 47, 58, 0.63);
-    width: 28%;
+    width: 20%;
   }
 
   .helpers a img {
@@ -799,7 +799,7 @@ i {
   @media screen and (max-width: 470px) {
     .partners {
       background-color: transparent;
-      height: 200px;
+      height: 100px;
       width: 100%;
       margin: 0 0 0px;
     }
@@ -809,7 +809,7 @@ i {
     /* i'm going to hell for this hack  :P */
     .partners .behave {
       height: 200px;
-      width: 200px;
+      width: 400px;
       background-color: rgba(45, 53, 66, 0.4);
       margin: 0 auto;
       display: flex;
