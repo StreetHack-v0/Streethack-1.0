@@ -77,6 +77,8 @@ body {
   padding-left: 20px;
   padding-bottom: 20px;
   transition: 1s background-color;
+  background: black;
+  opacity: 0.5;
 }
 
 #main-menu li {
@@ -246,6 +248,21 @@ i {
     display: block;
   }
 
+  #theme{
+    background: #f5f5f5 url('../images/theme.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+  }
+
+  button.btn.btn-link.collapsed{
+    color: #1d222b;
+    font-size: 25px;
+    padding: 2px;
+    font-family: robota;
+  }
   #dataset {
     background-color: #603c81;
     color: #d0b9d8;
@@ -619,7 +636,7 @@ i {
   }
 
   #sponsors {
-    background: #f5f5f5 url('../images/bg6.gif');
+    background: #a9acec;
     color: #ffffff;
     z-index: -0;
   }
@@ -635,7 +652,7 @@ i {
 
   #sponsors img {
     padding: 1em;
-    height: 200px;
+    height: 175px;
     margin: 10px 5px 5px;
     z-index: 999;
   }
