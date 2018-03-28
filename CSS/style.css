@@ -455,8 +455,8 @@ i {
     }
 
     #schedule td, th {
-    padding: 150px 150px 150px 0 !important;
-  }
+    padding: 150px 150px 150px 0;
+    }
   }
 
   #schedule th {
@@ -781,6 +781,12 @@ i {
   @@media screen and (max-width:300px){
     html{
       font-size: 30%;
+    }
+    #schedule .table-block {
+      margin: 0px auto !important;
+    }
+    #schedule td, th {
+      padding: none !important;
     }
   }
 
