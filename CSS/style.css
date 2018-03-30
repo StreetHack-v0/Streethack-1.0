@@ -959,3 +959,15 @@ i {
     transform: rotate(-45deg);
     width: 30px;
   }
+
+  #prizes {
+    background: url('../images/bg7.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #prize{
+    background-color: lightblue;
+  }
