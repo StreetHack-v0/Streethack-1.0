@@ -961,7 +961,7 @@ i {
   }
 
   #prizes {
-    background: url('https://media.giphy.com/media/5fBH6zoAQg9dHK2ttsc/giphy.gif') no-repeat center center;
+    background: url('../images/bg7.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
