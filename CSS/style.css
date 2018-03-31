@@ -644,7 +644,8 @@ i {
   }
 
   #sponsors {
-    background: #a9acec;
+    background: black url('../images/bg6.gif') no-repeat center center;
+    /* background: #a9acec; */
     color: #ffffff;
     z-index: -0;
   }
@@ -969,11 +970,9 @@ i {
   }
 
   #prizes {
-    background-color: #a9acec;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #490200 url('../images/bg_prize.jpg') no-repeat center center fixed;
+    color: #ffffff;
+    z-index: -0;
   }
 
   .prize{
@@ -1007,4 +1006,3 @@ i {
 .card-5 {
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-
