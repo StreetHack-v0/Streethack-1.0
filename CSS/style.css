@@ -980,6 +980,16 @@ i {
     padding: 20px;
   }
 
+  #mentors {
+    background: #490200 url('../images/bg_mentor.jpg') no-repeat center center fixed;
+    color: #ffffff;
+    z-index: -0;
+  }
+
+  .mentor{
+    background-color: #ffbb33;
+    padding: 20px;
+  }
 
 
 .card-1 {
