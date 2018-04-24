@@ -1,2 +1,2 @@
 # Streethack
-Website of StreetHack 2018 organising by [Ultrahack](https://ultrahack.org) and [Codestreet](http://codestreet.io)
+Website of StreetHack 2018 organised by [StreetHack](http://www.streethack.tech) , [Ultrahack India](https://ultrahack.org/ultrahackindia) & [Codestreet](http://codestreet.io)
